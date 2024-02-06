@@ -1,7 +1,7 @@
-package Pages;
+package pages;
 
-import PageObjects.CheckboxesPage;
-import PageObjects.WelcomePage;
+import pageobjects.CheckboxesPage;
+import pageobjects.WelcomePage;
 import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;

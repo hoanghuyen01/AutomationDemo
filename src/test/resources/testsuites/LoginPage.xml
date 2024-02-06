@@ -8,9 +8,7 @@
         <parameter name="os" value="Windows"/>
         <parameter name="os_version" value="10"/>
         <classes>
-<!--            <class name="Pages.LoginPageTest" />-->
-<!--            <class name="Pages.CheckboxesPageTest" />-->
-            <class name="Pages.DropdownPageTest" />
+            <class name="pages.DropdownPageTest" />
         </classes>
     </test>
 </suite>

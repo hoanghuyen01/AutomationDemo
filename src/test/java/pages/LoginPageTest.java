@@ -1,7 +1,7 @@
-package Pages;
+package pages;
 
-import PageObjects.LoginPage;
-import PageObjects.WelcomePage;
+import pageobjects.LoginPage;
+import pageobjects.WelcomePage;
 import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;

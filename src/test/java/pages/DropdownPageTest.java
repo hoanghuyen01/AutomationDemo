@@ -1,7 +1,7 @@
-package Pages;
+package pages;
 
-import PageObjects.DropdownPage;
-import PageObjects.WelcomePage;
+import pageobjects.DropdownPage;
+import pageobjects.WelcomePage;
 import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;

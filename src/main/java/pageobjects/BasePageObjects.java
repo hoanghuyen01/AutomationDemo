@@ -1,6 +1,6 @@
-package PageObjects;
+package pageobjects;
 
-import Ultilities.WaitHelper;
+import ultilities.WaitHelper;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.apache.logging.log4j.Logger;
@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-import java.util.List;
 
 public class BasePageObjects {
 

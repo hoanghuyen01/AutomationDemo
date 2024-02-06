@@ -1,4 +1,4 @@
-package PageObjects;
+package pageobjects;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Alert;
@@ -8,8 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-
-import java.util.List;
 
 public class DropdownPage extends BasePageObjects{
     private By dropdown = By.id("dropdown");
