@@ -17,6 +17,7 @@ public class DropdownPageTest extends BaseTest {
         dropdownPage = new DropdownPage(driver,log);
     }
 
+    @Test
     public void selectOption2(){
         welcomePage.openWelcomePage();
         welcomePage.selectDropdownForm();
@@ -24,6 +25,7 @@ public class DropdownPageTest extends BaseTest {
         Assert.assertEquals(dropdownPage.getTextOfSelectOption(),"Option 2");
     }
 
+    @Test
     public void JsAlertFormTest(){
         welcomePage.openWelcomePage();
         welcomePage.selectJsAlertForm();
@@ -32,6 +34,7 @@ public class DropdownPageTest extends BaseTest {
         dropdownPage.acceptAlertForm();
         Assert.assertEquals(dropdownPage.getResultAlertMessage(),"You successfully clicked an alert");
     }
+    @Test
     public void JsConfirmAlertTest(){
         welcomePage.openWelcomePage();
         welcomePage.selectJsAlertForm();
@@ -59,6 +62,7 @@ public class DropdownPageTest extends BaseTest {
         Assert.assertEquals(dropdownPage.getResultAlertMessage(),"You entered: null");
 
     }
+    @Test
     public void multipleWindowsTest(){
         welcomePage.openWelcomePage();
         welcomePage.multipleWindowsForm();
